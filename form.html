@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="view port" content="width=device-width,initial-scale=1.0">
+    <title>HTML FORM INTRO</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Registration</legend>
+
+            <label for="userfirstname">first name</label>
+            <input type="text" id="userfirstname" name="fname">
+
+            <label for="username">last name</label>
+            <input type="text" id="username" name="lastname" register> <br> <br>
+            <label for="userphoeno">phone No:</label>
+            <input type="number" id="userphoneno" name="phoneno" min="5" max="9">
+            <label for="userpassword">passwords</label>
+            <input type="password" id="userpassword" name="userpassword" required> <br> <br>
+            <label for="emailaddress">emailaddress</label>
+            <input type="email" id="emailaddress" name="emailaddress">
+
+
+            <label for="file">file name</label>
+            <input type="file" id="filename" name="filename">
+            <label for="color">color</label>
+            <input type="color" id="color" name="color"><br> <br>
+
+            <label>choose your hobbies</label><br>
+            <input type="checkbox" id="running" name="hobbies" value="running"><label for="running">running</label> <br>
+            <input type="checkbox" id="cooking" name="hobbies" value="cooking"><label for="cooking">cooking</label> <br>
+            <input type="checkbox" id="dancing" name="hobbies" value="dancing"><label for="dancing">dancing</label> <br>
+            <input type="checkbox" id="swiming" name="hobbies" value="swiming"><label for="swiming">swiming</label> <br>
+
+            <label for="usercountry">
+                choose your country
+            </label>
+            <select name="country" id="usercountry">
+                <option value="">---choose---</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="ghana">ghana</option>
+                <option value="togo">togo</option>
+            </select> <br> <br>
+
+            <label for="usercomment">
+                leave a comment
+            </label><br>
+
+ 
+            <textarea name="comment" id="usercomment" cols="60" rows="9" placeholder="not less than 5000 characters"
+                minlength="20"></textarea> <br> <br>
+            <input type="submit" value="submit">
+            <button type="submit">
+                register
+
+            </button>
+
+
+
+
+
+
+
+
+
+
+
+
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
